@@ -17,7 +17,7 @@ The project demonstrates concepts used in compiler design and helps understand t
 - Counts lines, words, and characters
 - Detects missing semicolons
 - Checks unmatched braces
-- Verifies presence of main() function
+- Verifies presence of `main()` function
 - Reads source code line by line using file handling
 
 ---
@@ -33,6 +33,7 @@ The project demonstrates concepts used in compiler design and helps understand t
 
 ## Project Structure
 
+```text
 lexical-analyzer-c/
 │
 ├── main.c
@@ -40,6 +41,7 @@ lexical-analyzer-c/
 ├── header.h
 ├── sample.c
 └── README.md
+```
 
 ---
 
@@ -74,22 +76,28 @@ Input source file used to test the lexical analyzer.
 
 ### Compile
 
+```bash
 gcc main.c definitions.c
+```
 
 ### Run
 
+```bash
 ./a.out
+```
 
 ---
 
 ## Sample Output
 
-Keyword       : int
-Identifier    : main
-Operator      : =
-Special Symbol: {
-Number        : 10
-Header File   : stdio.h
+```text
+Keyword        : int
+Identifier     : main
+Operator       : =
+Special Symbol : {
+Number         : 10
+Header File    : stdio.h
+```
 
 ---
 
