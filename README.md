@@ -91,14 +91,26 @@ gcc main.c definitions.c
 ## Sample Output
 
 ```text
-Keyword        : int
-Identifier     : main
-Operator       : =
-Special Symbol : {
-Number         : 10
-Header File    : stdio.h
+Keyword         : int
+Identifier      : main
+Symbol          : (
+Symbol          : )
+Symbol          : {
+Keyword         : int
+Identifier      : a
+Operator        : =
+Constant        : 10
+Symbol          : ;
+Keyword         : float
+Identifier      : b
+Operator        : =
+Constant        : 20.5
+Symbol          : ;
+Keyword         : return
+Constant        : 0
+Symbol          : ;
+Symbol          : }
 ```
-
 ---
 
 ## Concepts Covered
