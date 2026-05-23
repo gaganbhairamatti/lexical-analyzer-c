@@ -1,4 +1,4 @@
-"# Lexical Analyzer in C
+# Lexical Analyzer in C
 
 ## Overview
 This project is a simple Lexical Analyzer developed using the C programming language. The program reads a C source file and identifies different lexical components such as keywords, identifiers, operators, special symbols, numbers, and header files. It also performs basic error checking like missing semicolons and unmatched braces.
@@ -132,4 +132,4 @@ This project demonstrates the implementation of a basic lexical analyzer using t
 
 ## Author
 
-Gagan Bhairamatti"
+Gagan Bhairamatti
